@@ -1,7 +1,7 @@
 #Deepen Solanki, September 2019
 #This is the first step in object detection. Play around with the H,S,V trackbars till the 
 #object of interest is the only thing in the frame in white and everything else is black
-#Note down those HSV values. They will be used later
+#Note down those HSV values. They will be used later to detect object
 
 import cv2 as cv
 
