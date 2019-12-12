@@ -1,2 +1,2 @@
 # RaspberryPi
-All thing Pi
+All things Pi
