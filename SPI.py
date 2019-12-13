@@ -22,6 +22,7 @@
 # Open up the terminal, type "sudo raspi-config" (without the " ")
 # Interfacing Options -> SPI -> Enable
 # Reboot the Pi
+#
 
 import spidev
 
