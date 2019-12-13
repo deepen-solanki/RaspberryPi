@@ -12,7 +12,6 @@
 # Pin 35 - MISO
 # Pin 40 - SCLK
 # Pin 11 - CS1
-#
 # 
 # These should be connected to your receiving device in the same fashion, i.e - MOSI (Pi) -- MOSI (Device)
 # For this example you can leave MISO unconnected as we are only sending data out from the Pi
@@ -22,6 +21,13 @@
 # Open up the terminal, type "sudo raspi-config" (without the " ")
 # Interfacing Options -> SPI -> Enable
 # Reboot the Pi
+# 
+# Alter, follow these steps on the Terminal
+#
+# pi@raspberrypi:~ $ grep spi /boot/config.txt 
+# dtparam=spi=on
+# dtoverlay=spi1-3cs
+# pi@raspberrypi:~ $ 
 #
 
 import spidev
